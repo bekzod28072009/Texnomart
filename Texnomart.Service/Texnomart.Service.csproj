@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Texnomart.Data\Texnomart.Data.csproj" />
     <ProjectReference Include="..\Texnomart.Domain\Texnomart.Domain.csproj" />
   </ItemGroup>
 
